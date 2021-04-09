@@ -1,0 +1,135 @@
+body{
+    background-image: url('../images/bg-header.jpg');
+    background-size: cover;
+    margin: 0px;
+}
+#navbar{
+  border: 1px solid black;
+  margin: 1%;
+  /* height: 30px; */
+}
+
+#navbar ul{
+ overflow: auto;
+ margin: auto; 
+}
+
+#navbar li{
+ list-style: none;
+}
+
+#navbar li a{
+  text-decoration: none;
+}
+#navbar li a:hover{
+  background-color:rgb(114, 89, 99);
+  border-bottom: 2px solid rgb(228, 39, 102);
+}
+#mySearch {
+    width: 80%;
+    font-size: 18px;
+    padding: 11px;
+   border: 1px solid #999; 
+    border-radius: 15px;
+    box-shadow: 0 9px #999; 
+    outline: none;
+  }
+
+#btns{
+    display: flex;    
+    }
+
+#btn2{
+    font-size: 16px;
+    padding: 10px;
+    margin-left:10px ;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;      
+    width: 20%;
+}
+
+#btn2:hover{
+  background-color: #2b2d42
+}
+
+#btn2:active {
+  background-color: #2b2d42;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#back{
+  font-size: 15px;
+  padding: 11px;
+  margin-left:3px ;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #e4bcee;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;      
+}
+
+#back:hover{
+background-color:  #e4bcee
+}
+
+#back:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+  #myMenu {
+    /* list-style-type: none; */
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    font-family: 'Xanh Mono', monospace;
+  }
+  
+  li{
+    display: inline-block;
+    width: 47%;
+    margin: 1%;
+  }
+  #myMenu li a {
+    padding: 12px;
+    margin-top:2px ;
+    text-decoration: none;
+    color: black;
+    background-color: #eee;
+    border-left: 3px solid rgb(107, 107, 107) ;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: rgb(207, 203, 203);
+    border-left: 3px solid black;
+    /* border-bottom: 1px solid black; */
+
+  }
+  .list_item{
+    display: flex;
+    margin-top: 5px;
+  }
+  .list_item img{
+    width: 30%;
+   /* height: 50%;*/ 
+  }
+  .list_item a{
+    width: 70%;
+  }
+  @media (max-width:743px){
+    li{
+      display:block;
+      width: 98%;
+      margin: 1%;
+    }
+  }

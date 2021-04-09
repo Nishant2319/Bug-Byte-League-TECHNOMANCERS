@@ -1,0 +1,16 @@
+.details{
+	margin-bottom:40%;
+	font-style: bold;
+	border:2px black;
+	color: white;
+	height: auto;
+	}
+
+
+.contact{
+	 margin-top:90px;
+	background-color: white;
+     height:50%;
+    font-size: 20px;
+    font-style: italic;
+}
